@@ -3,3 +3,20 @@
 .brand img{display:block;width:170px;height:auto;max-height:55px;object-fit:contain}
 .logo-card{padding:30px;background:#050505}
 .logo-card img{width:100%;max-width:430px;height:auto;object-fit:contain}
+
+.site-banner {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.site-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
