@@ -77,4 +77,33 @@
   .product-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
+
+/* NEXPHASE PRODUCT SHOWCASE */
+.products-poster {
+  width: 100%;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 12px;
+  box-sizing: border-box;
 }
+
+.products-poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+/* Smaller screens */
+@media (max-width: 600px) {
+  .products-poster {
+    margin: 20px auto;
+    padding: 0 8px;
+  }
+
+  .products-poster img {
+    border-radius: 8px;
+  }
