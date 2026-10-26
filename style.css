@@ -110,3 +110,58 @@ html body .products-poster img {
 
 width: 700px !important;
 max-width: 95% !important;
+
+/* NEXPHASE — Navy, Electric Blue & Gold Theme */
+html {
+  background-color: #101C3A;
+}
+
+body {
+  background: linear-gradient(
+    135deg,
+    #101C3A 0%,
+    #173B78 45%,
+    #1769FF 100%
+  );
+  color: #FFFFFF;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #F5B82E;
+}
+
+/* Links */
+a {
+  color: #FFD166;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+/* Buttons */
+button,
+input[type="submit"],
+input[type="button"] {
+  background-color: #1769FF;
+  color: #FFFFFF;
+  border: 1px solid #F5B82E;
+  border-radius: 6px;
+  padding: 10px 16px;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background-color: #F5B82E;
+  color: #101C3A;
+}
+
+/* Preserve existing banner and product image sizing */
+.site-banner,
+.site-banner img,
+.products-poster,
+.products-poster img {
+  /* Keep their existing dimensions and layout */
+}
