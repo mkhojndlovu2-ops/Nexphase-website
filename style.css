@@ -80,13 +80,6 @@
 
 
 /* NEXPHASE PRODUCT SHOWCASE */
-.products-poster {
-  display: block;
-  width: 100%;
-  max-width: 1200px;
-  margin: 25px auto;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .products-poster img {
@@ -105,37 +98,13 @@
     width: 100%;
     margin: 15px auto;
   }
-
-/* NEXPHASE PRODUCT IMAGE - WIDTH FIX */
-.products-poster {
-  width: 100%;
-  margin: 20px auto;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.products-poster img {
-  display: block;
-  width: 280px !important;
-  max-width: 85% !important;
-  height: auto !important;
-  margin: 0 auto !important;
-  object-fit: contain;
-}
-
-@media (min-width: 700px) {
-  .products-poster img {
-    width: 420px !important;
-    max-width: 90% !important;
-  }
-}
-/* Product poster size */
+  
 html body .products-poster img {
   display: block !important;
-  width: 240px !important;
-  max-width: 80% !important;
+  width: 220px !important;
+  max-width: 70% !important;
   height: auto !important;
+  object-fit: contain !important;
   margin: 20px auto !important;
 }
-
 
